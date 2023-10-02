@@ -1,4 +1,4 @@
-#Check if array is rotated and sorted.
+# Check if array is rotated and sorted.
 
 This one is easy, first we have to sort the array using simple sort function, then we have to write a rotate array function, and check for the rotated array matching the given array through each rotation.
 ```
