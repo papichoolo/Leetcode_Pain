@@ -1,30 +1,22 @@
-def calculate_distance(good_string, student_name):
+def calculate_distance(good_string, name):
+    prev_good_char = good_string[0]
     total_distance = 0
-    previous_good_letter = good_string[0]
 
-    for current_letter in student_name:
-        if current_letter in good_string:
-            # If the current letter is present in the good string, no change needed
-            continue
-
-        distances = []
-
-        for good_letter in good_string:
-            distance = abs(ord(previous_good_letter) - ord(good_letter)) + abs(ord(current_letter) - ord(good_letter))
-            distances.append((distance, good_letter))
-
-        distances.sort()  # Sort by distance and then by lexicographical order
-
-        selected_letter = distances[0][1]
-        total_distance += distances[0][0]
-
-        previous_good_letter = selected_letter
+    for char in name:
+        min_distance = float('inf')
+        for good_char in good_string:
+            distance = abs(ord(char) - ord(good_char))
+            if distance < min_distance or (distance == min_distance and abs(ord(prev_good_char) - ord(good_char)) < abs(ord(prev_good_char) - ord(min_distance_char))):
+                min_distance = distance
+                min_distance_char = good_char
+        total_distance += min_distance
+        prev_good_char = min_distance_char
 
     return total_distance
 
-# Example usage:
-good_string = "@HR*i{kcQl"
-student_name = "Vyom"
+# Input
+good_string = input().strip()
+name = input().strip()
 
-result = calculate_distance(good_string, student_name)
-print(result)
+# Calculate and print the total distance
+print(calculate_distance(good_string, name))
