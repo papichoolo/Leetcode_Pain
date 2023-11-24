@@ -1,12 +1,23 @@
-def partial_selection_sort(A, B, n):
-    indices = sorted(range(n), key=lambda i: A[i])
-    
-    sorted_B = [B[i] for i in indices]
-    return sorted_B
-# Example usage:
-array_A = [32,4,53,2,0,18]
-array_B = [21,11,9,3,16,36]
-n_iterations = 3
+def selection_sort(A, B, n):
+    for i in range(n):
+        min_index = i
+        for j in range(i + 1, len(A)):
+            if A[j] < A[min_index]:
+                min_index = j
 
-sorted_array_B = partial_selection_sort(array_A, array_B, n_iterations)
-print(sorted_array_B)
+        # Swap elements in array A
+        A[i], A[min_index] = A[min_index], A[i]
+
+        # Reflect swaps in array B
+        B[i], B[min_index] = B[min_index], B[i]
+
+    return B
+
+# Input
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+n = int(input())
+
+# Perform selection sort and print the modified array B
+result = selection_sort(A, B, n)
+print(" ".join(map(str, result)))
