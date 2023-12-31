@@ -27,6 +27,6 @@ class LinkedList(self):
         self.length -= 1
         if self.length == 0:
             self.tail = None
-        return True
+        return temp
 
     
