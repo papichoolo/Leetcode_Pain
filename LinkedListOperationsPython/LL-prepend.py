@@ -44,4 +44,6 @@ class LinkedList(self):
             return True
         return False
 
+        #thank you stuffi
+
     
