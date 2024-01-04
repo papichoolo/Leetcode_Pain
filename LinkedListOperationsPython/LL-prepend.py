@@ -45,5 +45,6 @@ class LinkedList(self):
         return False
 
         #thank you stuffi
+    #i hate living right about now, kill me
 
     
