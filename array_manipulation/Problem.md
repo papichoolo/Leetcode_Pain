@@ -5,3 +5,5 @@ For example, let's consider the following
 scenario: q= [[2.4.5].[3.6,3].[1.7.10]] 
 Initial Array size = 7
 Array: [0, 0, 0, 0, 0, 0, 0]
+
+add some stuff here
