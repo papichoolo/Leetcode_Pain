@@ -27,7 +27,7 @@ class LinkedList(self):
         self.length -= 1
         if self.length == 0:
             self.tail = None
-        return temp
+        return temp 
     
     def get(self,index):
         if index < 0 or index >= self.length:
