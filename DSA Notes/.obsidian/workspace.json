@@ -161,13 +161,21 @@
                 "file": "Linked List.md"
               }
             }
+          },
+          {
+            "id": "7982630d1be2ef85",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
