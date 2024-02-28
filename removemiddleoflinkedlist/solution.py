@@ -16,7 +16,8 @@ class Solution:
             prev=slow
             slow = slow.next
             fast = fast.next.next
-                
+
+        #at this point slow will always be in the middle  of linked list as we have reached end without meeting
         prev.next=slow.next
         slow.next=None
         return head
