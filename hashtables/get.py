@@ -19,6 +19,6 @@ class HashTable:
 
 myhash= HashTable()
 myhash.set_item('bruh',5000)
-myhash.set_item('lol','balls')
-myhash.set_item('xdd','balls')
+myhash.set_item('nigga','balls')
+myhash.set_item('gay','balls')
 myhash.printer()
