@@ -14,5 +14,4 @@ class Solution:
         missing = actual_sum - (total_sum - repeated)
 
         return [repeated, missing]
-        # code here
-
+        # code he
