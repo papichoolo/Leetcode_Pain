@@ -17,10 +17,26 @@ class Graph:
             return True
         return False
 
-
+    def remove_edge(self,v1,v2):
+        if v1 in self.graph.keys() and v2 in self.graph.keys():
+            try:
+                self.graph[v1].remove(v2)
+                self.graph[v2].remove(v1)
+                return True
+            except ValueError:
+                pass
+    def remove_vert(self,v):
+        if v in self.graph.keys():
+            for i in self.graph[v]:
+                self.graph[i].remove(v)
+            self.graph.pop(v)
+            return True
 
 bruh = Graph()
 bruh.add_vert(1)
 bruh.add_vert(2)
 bruh.add_edge(2,1)
+bruh.add_vert(3)
+bruh.remove_edge(1,3)
+bruh.remove_vert(1)
 bruh.print_graph()
