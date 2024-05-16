@@ -1,0 +1,1 @@
+- So an important thing about heaps is that heaps basically work in the form of list and we are basically moving in parent, left child, right, child
