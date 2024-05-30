@@ -14,10 +14,6 @@ class MyQueue:
     #                           #
     #                           #
     #############################
-<<<<<<< HEAD
-=======
-
->>>>>>> 23cf87e02cb604faaeb76530b19f4e6c0fbeb030
     def peek(self):
         return self.stack1[-1]
 
