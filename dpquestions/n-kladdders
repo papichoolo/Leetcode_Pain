@@ -1,0 +1,30 @@
+def ways_to_reach_n(n, k, memo):
+    # Base case: there's one way to stay at the ground
+    if n == 0:
+        return 1
+    
+    # Check if result is already computed
+    if n in memo:
+        return memo[n]
+    
+    # Initialize number of ways to reach n as 0
+    total_ways = 0
+    
+    # Calculate number of ways to reach n by considering steps from 1 to k
+    for step in range(1, k + 1):
+        if n - step >= 0:
+            total_ways += ways_to_reach_n(n - step, k, memo)
+    
+    # Save the result in memo table
+    memo[n] = total_ways
+    
+    return total_ways
+
+def n_k_ladders(n, k):
+    memo = {}
+    return ways_to_reach_n(n, k, memo)
+
+# Example usage:
+n = 100
+k = 45
+print(n_k_ladders(n, k))  # Output: number of ways to reach the 5th step with step sizes from 1 to 3
