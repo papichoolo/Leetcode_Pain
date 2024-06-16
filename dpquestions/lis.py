@@ -6,3 +6,6 @@ def lis(arr):
             if arr[i] > arr[j] and lis[i] < lis[j] + 1:
                 lis[i] = lis[j] + 1
     return max(lis)
+
+#bottom up approach
+print(lis([4 ,2 ,8, 1, 18 ,14]))

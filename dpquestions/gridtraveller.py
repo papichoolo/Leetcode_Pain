@@ -9,4 +9,4 @@ def gridtraveller(m,n, memo={}):
     memo[key]= gridtraveller(m-1,n, memo) + gridtraveller(m,n-1, memo)
     return memo[key]
 
-print(gridtraveller(148,168))
+print(gridtraveller(3,7))
