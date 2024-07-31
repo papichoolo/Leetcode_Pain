@@ -35,8 +35,13 @@
             "id": "75a87199c97fff89",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DSA Notes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -64,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees.md",
+                "file": "DSA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees.md",
+                "file": "DSA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees.md"
+                "file": "DSA Notes.md"
               }
             }
           },
@@ -199,10 +204,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "473e9c80d9f72b40",
+  "active": "75a87199c97fff89",
   "lastOpenFiles": [
-    "DSA Notes.md",
     "Trees.md",
+    "DSA Notes.md",
     "Linked List.md",
     "BFS.md",
     "DFS Stack.md"

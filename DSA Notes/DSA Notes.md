@@ -1,3 +1,4 @@
 - [[Linked List]]
 - [[BFS]]
 - [[DFS Stack]]
+- [[Trees]]
