@@ -1,7 +1,7 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
         bruh= set()
-        #unhappy nos. will have LL cycle in other number than 1, 
+        #unhappy nos. will have LL cycle in other number than 1, 2
         while n not in bruh:
             bruh.add(n)
             n=self.addsq(n)
