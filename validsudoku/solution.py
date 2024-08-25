@@ -13,3 +13,4 @@ class Solution:
                     row[i][num]=col[j][num]=box[k][num]=1
         return True
 
+    
