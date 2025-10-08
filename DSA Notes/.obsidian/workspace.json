@@ -74,6 +74,18 @@
             }
           },
           {
+            "id": "aaf015f82053ce62",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
             "id": "409d68fd831e612a",
             "type": "leaf",
             "state": {
@@ -102,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -223,13 +235,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecureLeap/AI for Business.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI for Business"
+              "title": "Outline"
             }
           },
           {
@@ -251,6 +262,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -259,7 +271,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53810c698771a0cb",
+  "active": "aaf015f82053ce62",
   "lastOpenFiles": [
     "SecureLeap/College Screening Tools.md",
     "SecureLeap/AI for Business.md",
