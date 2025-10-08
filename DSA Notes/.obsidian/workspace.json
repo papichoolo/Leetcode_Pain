@@ -77,12 +77,14 @@
             "id": "aaf015f82053ce62",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "SecureLeap/College Screening Tools.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "College Screening Tools"
             }
           },
           {
@@ -235,12 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "SecureLeap/College Screening Tools.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of College Screening Tools"
             }
           },
           {
@@ -273,8 +276,8 @@
   },
   "active": "aaf015f82053ce62",
   "lastOpenFiles": [
-    "SecureLeap/College Screening Tools.md",
     "SecureLeap/AI for Business.md",
+    "SecureLeap/College Screening Tools.md",
     "DSA Notes.md",
     "SecureLeap",
     "Trees.md",
