@@ -88,6 +88,18 @@
             }
           },
           {
+            "id": "e93ae31b2666c1d6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "409d68fd831e612a",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -237,13 +249,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecureLeap/College Screening Tools.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of College Screening Tools"
+              "title": "Outline"
             }
           },
           {
@@ -274,7 +285,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aaf015f82053ce62",
+  "active": "e93ae31b2666c1d6",
   "lastOpenFiles": [
     "SecureLeap/AI for Business.md",
     "SecureLeap/College Screening Tools.md",
